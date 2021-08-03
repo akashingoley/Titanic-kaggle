@@ -47,3 +47,13 @@ Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 
 Some children travelled only with a nanny, therefore parch=0 for them.
+
+### Models used
+
+1] kagle.ipynb : Decision Tree from scratch with max depth = 5 
+Submitted to kaggle with score 0.77511
+
+2] DT_sklearn.ipynb : Decision Tree using sklearn DecisionTreeClassifier and cross_val_score on RandomForestClassifier
+max depth = 5 cv = 5
+Submitted to kaggle with score 0.77751
+
